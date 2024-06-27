@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import express from "express";
-import router from "./router/index"
+import router from './router/index.js';
 import cors from "cors";
 import 'dotenv/config';
 
@@ -8,9 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-
 app.use(cors());
-
 
 
 var port = 8080;
