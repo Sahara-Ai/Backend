@@ -1,6 +1,8 @@
 import genChat from "./chatContoller";
+import Auth from "./AuthController";
 
 const Controller = {
-    genChat : genChat
+    genChat : genChat,
+    Auth : Auth
 }
 export default Controller
