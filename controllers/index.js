@@ -1,6 +1,6 @@
-import Chat from "./chatContoller";
+import genChat from "./chatContoller";
 
 const Controller = {
-    chat : Chat
+    genChat : genChat
 }
 export default Controller
