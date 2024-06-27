@@ -11,8 +11,7 @@ app.use(express.json());
 
 app.use(cors());
 
-app.use('/',router.auth);
-app.use('/',router.chat);
+
 
 var port = 8080;
 mongoose.connect(
