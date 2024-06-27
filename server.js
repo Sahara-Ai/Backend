@@ -10,6 +10,7 @@ app.use(express.json());
 
 app.use(cors());
 app.use('/', router.ChatRouter);
+app.use('/', router.AuthRouter);
 
 var port = 8080;
 mongoose.connect(
